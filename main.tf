@@ -10,8 +10,5 @@ terraform {
 }
 
 provider "aws" {
-  region = var.location
-  access_key = var.access_key_ID_VB
-  secret_key =var.secret_key_ID_VB
-
+  region = "us-east-1"
   }
