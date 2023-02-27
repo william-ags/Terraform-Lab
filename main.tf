@@ -12,7 +12,7 @@ terraform {
 
 
   backend "s3" {
-    bucket = "infra-aws-will"
+    bucket = "infra-aws-terraform"
     key    = "aws-ec2-modulo-local/terraform.tfstate"
     region = "us-east-1"
 
